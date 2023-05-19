@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="kisiler" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=kisiler;Integrated Security=True" SettingsObjectName="kisiler.Properties.Settings" SettingsPropertyName="kisilerConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.İL" Member="İL">
+    <Type Name="İL">
+      <Column Name="İLİD" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="İLLER" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+      <Association Name="İL_İLCE" Member="İLCE" ThisKey="İLİD" OtherKey="İLİD" Type="İLCE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.İLCE" Member="İLCE">
+    <Type Name="İLCE">
+      <Column Name="İLCEİD" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="İLİD" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="İLCELER" Type="System.String" DbType="VarChar(13) NOT NULL" CanBeNull="false" />
+      <Association Name="İL_İLCE" Member="İL" ThisKey="İLİD" OtherKey="İLİD" Type="İL" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+</Database>

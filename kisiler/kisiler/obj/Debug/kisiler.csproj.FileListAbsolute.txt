@@ -1,0 +1,12 @@
+C:\Users\Hp\source\repos\kisiler\kisiler\bin\Debug\kisiler.exe.config
+C:\Users\Hp\source\repos\kisiler\kisiler\bin\Debug\kisiler.exe
+C:\Users\Hp\source\repos\kisiler\kisiler\bin\Debug\kisiler.pdb
+C:\Users\Hp\source\repos\kisiler\kisiler\obj\Debug\kisiler.csproj.AssemblyReference.cache
+C:\Users\Hp\source\repos\kisiler\kisiler\obj\Debug\kisiler.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hp\source\repos\kisiler\kisiler\obj\Debug\kisiler.KAYIT.resources
+C:\Users\Hp\source\repos\kisiler\kisiler\obj\Debug\kisiler.Properties.Resources.resources
+C:\Users\Hp\source\repos\kisiler\kisiler\obj\Debug\kisiler.csproj.GenerateResource.cache
+C:\Users\Hp\source\repos\kisiler\kisiler\obj\Debug\kisiler.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\kisiler\kisiler\obj\Debug\kisiler.exe
+C:\Users\Hp\source\repos\kisiler\kisiler\obj\Debug\kisiler.pdb
+C:\Users\Hp\source\repos\kisiler\kisiler\obj\Debug\kisiler.Resource1.resources
